@@ -1,0 +1,58 @@
+[[main]]
+  name = "ブログ"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "トピック"
+  pageRef = "topics"
+  weight = 20
+
+[[main]]
+  pre = "github"
+  name = "GitHub"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 30
+
+[[main]]
+  identifier = "github2"
+  pre = "github"
+  url = "https://github.com/nunocoracao/blowfish"
+  weight = 40
+
+[[main]]
+  name = "親"
+  weight = 20
+
+[[main]]
+  name = "サブメニュー 1"
+  parent = "親"
+  pageRef = "samples"
+  weight = 20
+
+[[main]]
+  name = "サブメニュー 2"
+  parent = "親"
+  pageRef = "samples"
+  weight = 20
+
+[[main]]
+  name = "サブメニュー 3"
+  parent = "親"
+  pre = "github"
+  pageRef = "samples"
+  weight = 20
+
+[[subnavigation]]
+  name = "興味深いトピック"
+  pageRef = "tags/interesting-topic"
+  weight = 10
+
+[[subnavigation]]
+  name = "私の素晴らしいカテゴリ"
+  pageRef = "categories/awesome"
+  weight = 20
+
+[[footer]]
+  name = "プライバシー"
+  url = "https://external-link"
